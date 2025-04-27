@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.sale{
+    background-color: black;
+    color: #FAFAFA;
+    display: flex;
+    width: 99vw;
+    height: 5vh;
+}
+.sale a{
+    color: #FAFAFA;
+    margin-top: 1vw;
+    margin-left: 1vh;
+}
+.sale p {
+ margin-left: 33vw;
+ margin-top:2vh ;
+}
+.menu{
+    display: flex;
+    margin-top: 4vh;
+}
+.menu a {
+    color: black;
+    margin-left:7vw;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.shop{
+    background-color: #DB4444;
+    width: 3.5vw;
+    margin-left: 2vw;
+    border-radius: 5px;
+}
+.log{
+    background-color: #DB4444;
+    border: none;
+    width: 7vh;
+    margin-left: 3vw;
+    border-radius: 5px;
+}
+.creatproduct{
+    text-align: center;
+    display: block;
+}
+.creatproduct input{
+    height: 5vh;
+    width: 20vw;
+}
+.img img{
+    margin-left: -20vh;
+    max-height: 25vh;
+}
+.creatproduct input:nth-child(9){
+    height: 20vh;
+    width: 25vw;
+}
+.creatproduct button{
+    position: absolute;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: -40vh;
+    background-color:blue ;
+    border: none;
+    height: 3vh;
+    width: 5vw;
+    border-radius: 5px;;
+}

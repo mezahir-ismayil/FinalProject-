@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    padding:50px ;
+}
+.main img{
+    width: 45%;
+    height: 680px;
+}
+.details{
+    padding: 50px;
+    background-color: aqua;
+    width: 40%;
+}
+.ul li{
+    font-size: 60px;
+    font-weight: bold;
+}
+span{
+    font-weight: 300;
+}

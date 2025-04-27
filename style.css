@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.sale{
+    background-color: #DB4444;
+    color: #FAFAFA;
+    display: flex;
+    width: 99vw;
+    height: 5vh;
+}
+.sale a{
+    color: #FAFAFA;
+    margin-top: 1vw;
+    margin-left: 1vh;
+}
+.sale p {
+ margin-left: 33vw;
+ margin-top:2vh ;
+}
+.menu{
+    display: flex;
+    margin-top: 4vh;
+}
+.menu a {
+    margin-left:10vh;
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.un{
+    margin-left: 5vh;
+}
+.shop{
+    background-color: #DB4444;
+    width: 3.5vw;
+    border-radius: 5px;
+}
+.log{
+    background-color: #DB4444;
+    border: none;
+    width: 7vh;
+    margin-left: 10vw;
+    border-radius: 5px;
+}
+.menu input{
+    margin-left: 30vh;
+    border: none;
+    background-color: #cecece;
+}
+.menu a {
+    margin-left: 90px;
+}
+.img{
+    background-color: black;
+    margin-top: 6vh;
+    height: 60vh;
+}
+.img img{
+    margin-left: 10vh;
+    height: 60vh;
+    width: 85vw;
+}
+.minid{
+    background-color: #DB4444;
+    height: 2vh;
+    width: 1vw;
+    margin-left: 5vh;
+
+}
+#p{
+    margin-left: 5vh;
+    color: #DB4444;
+
+}
+.shopcoll h1{
+margin-left: 5vh;
+margin-top: 8vh;
+font-size: 60px;
+}
+.img1 img{
+   width: 55vw;
+    margin-left: 4vh; 
+} 
+.img1 h1{
+    margin-top: -8vh;
+    margin-left:10vh;
+    font-size: 55px;
+    margin-top: -10vh;
+}
+.img1 a{
+color: black;
+margin-left: 10vh;
+}
+.img2 a{
+color: black;
+}
+.img3 a{
+color: black;
+}
+.img2{
+    margin-left: 120vh;
+    margin-top: -105vh;
+
+}
+.img2 h1{
+margin-left: -20vh;
+margin-top: -5vh;
+}
+.img2 a{
+    margin-left: -20vh;
+}
+.img2 img{
+    height: 30vh;
+    width: 15vw;
+}
+.img3 img{
+    height: 40vh;
+    width: 20vw;
+}
+.img3{
+    margin-left: 90vh;
+}
+.fc{
+margin-left: 40%;
+color: #DB4444;
+}
+.feedback{
+    margin-top: 20vh;
+}
+.feedback1{
+    width: 40vh;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 8vh;
+}
+.feedback2{
+    width: 40vh;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 8vh;
+    background-color: #c57171;
+    margin-left:35% ;
+    margin-top: -20vh;
+}
+.feedback2 h2{
+color: #ff3939;
+}
+.feedback3{
+    width: 40vh;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 8vh;
+    margin-left:70% ;
+    margin-top: -20vh;
+}
+.ourproduct {
+ margin-top: 20vh;
+ display: flex;
+}
+.ourproduct h1{
+margin-top: -20vh;
+}
+#img1{
+    position: relative;
+  transform: rotate(40deg);
+  transition: 0.5s;
+  z-index: 1;
+  margin-left: -10vh;
+}
+#img1:hover{
+    transform: rotate(0deg);
+    transition: 0.5s;
+    
+}
+#img3{
+    transition: 0.5s;
+    margin-left: 15%;
+}
+#img2{
+position: absolute;
+transform: rotate(130deg);
+transition: 0.5s;
+z-index: 1;
+margin-left: 10vh;
+
+}
+#img2:hover{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+#img3:hover{
+    height: 32vh;
+    transition: 0.5s;
+}
+#img4{
+    transition: 0.5s;
+    margin-left: -25%;
+}
+#img4:hover{
+    height: 32vh;
+    transition: 0.5s;
+
+}
+#img5{
+    transition: 0.5s;
+    margin-left: 5%;
+}
+#img5:hover{
+    height: 32vh;
+    transition: 0.5s;
+}
+.ourproduct{
+    margin-top: 30vh;
+}
+.product1 img{
+height: 20vh;
+}
+.product2 img{
+height: 30vh;
+}
+.product3 img{
+height: 30vh;
+}
+.product4 img{
+height: 30vh;
+}
+.product1{
+    border: gray solid 1px;
+width: 15vw;
+margin-left: -20vh;
+}
+.product1 h2{
+    margin-top: 4vh;
+    margin-top: 20vh;
+}
+.product1 p{
+    width: 20vh;
+}
+.product1 button{
+    width: 55%;
+     height: 5vh; 
+     margin-left: 20%;
+     border-radius: 10px;
+     transition: 0.4s;
+    }
+    .product1 button:hover{
+    transition: 0.4s;
+    width: 20vh;
+    background-color: gray;
+    color: white;
+    border: none;
+    }
+.product2{
+    border: gray solid 1px;
+    margin-left: 15vh;
+    width:20vw ;
+}
+.product2 p{
+    width: 30vh;
+}
+.product2 button{
+width: 55%;
+ height: 5vh; 
+ margin-left: 20%;
+ border-radius: 10px;
+ transition: 0.4s;
+}
+.product2 button:hover{
+transition: 0.4s;
+width: 25vh;
+background-color: gray;
+color: white;
+border: none;
+}
+.product3{
+width: 30vh;
+    border: gray solid 1px;
+    margin-left: 15vh;
+}
+.product3 p{
+    width: 30vh;
+}
+.product3 img{
+    margin-left: -8vh;
+}
+.product3 button{
+    width: 55%;
+     height: 5vh; 
+     margin-left: 20%;
+     border-radius: 10px;
+     transition: 0.4s;
+    }
+    .product3 button:hover{
+    transition: 0.4s;
+    width: 20vh;
+    background-color: gray;
+    color: white;
+    border: none;
+    }
+.product4{
+    border: gray solid 1px;
+    margin-left: 10vh;
+    width: 35vh;
+    border: gray solid 1px;
+    margin-left: 15vh;
+}
+.product4 p{
+    width: 30vh;
+}
+.product4 button{
+    width: 55%;
+     height: 5vh; 
+     margin-left: 20%;
+     border-radius: 10px;
+     transition: 0.4s;
+    }
+    .product4 button:hover{
+    transition: 0.4s;
+    width: 25vh;
+    background-color: gray;
+    color: white;
+    border: none;
+    }
+.contact{
+    background-color:#DB4444;
+    height: 45vh;
+    display: flex;
+    margin-top: 10vh;
+}
+.exclusive{
+    color: #FAFAFA;
+    padding: 7vh;
+    margin-left: 10vh;
+}
+.exclusive input{
+    background-color: #DB4444;
+    border:solid #FAFAFA 1px;
+    height: 4vh;
+    margin-top: 2vh;
+}
+.exclusive p {
+    margin-top:2vh ;
+}
+.exclusive h4 {
+    margin-top:2vh ;
+}
+.exclusive i{
+margin-left: -3vh;
+font-size: 2.5vh;
+}
+.support{
+    color: #FAFAFA;
+margin-top: 6.5vh; 
+
+}
+.support p {
+    margin-top:2vh ;
+}
+.support h4 {
+    margin-top:2vh ;
+}
+.account{
+    color: white;
+    margin-left: 5vh;
+}
+.account a {
+    margin-top:2vh ;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.account h2 {
+    margin-top:2vh ;
+}
+.link{
+    color: white;
+    margin-left: 10vh;
+}
+.link a {
+    margin-top:2vh ;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.link h2 {
+    margin-top:2vh ;
+}
+.download{
+    color: white;
+    margin-left: 10vh;
+}
+#img6{
+height: 12vh;
+}
+#img7{
+    height: 20vh;
+
+}
+#img8{
+position: relative;
+top: 5vh;
+    height: 18vh;
+    margin-left: -20vh
+}
+.download a{
+    color: white;
+    /* margin-left: -2vh; */
+}
+#psp{
+    color: #db8888;
+    margin-top: 40vh;
+    margin-left: -45%;
+}
