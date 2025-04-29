@@ -1,13 +1,19 @@
+let btn = document.getElementById("btn2")
+btn.addEventListener("click",()=>{
+    for(let i  = 0 ;i<b; i++){
+let obj = JSON.parse(localStorage.getItem(`user${i}`))
 let i1 = document.getElementById("inp12")
 let i2 = document.getElementById("inp22")
-let ii3 = localStorage.getItem("name")
-let ii4 = localStorage.getItem("password")
-let btn = document.getElementById("btn2")
-function func20(){
-    if(i1.value == ii3.value && i2.value == ii4.value){
-        alert("ты зарегался харош")
-        location.href("index.html")
-    }else{
-        alert("что то неправильно")
-    }
+        if(i1.value == obj.name1 && i2.value == obj.password){
+            alert("ты зарегался харош")
+            location.href("index.html")
+            break;
+        }else if ((i1.value != obj.name1 && i2.value != obj.password)){
+
+        }
+        else{
+          continue;
+        }
 }
+    })
+    
