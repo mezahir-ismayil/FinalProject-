@@ -3,6 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+.sale{
+    background-color: #DB4444;
+    color: #FAFAFA;
+    display: flex;
+    width: 99vw;
+    height: 5vh;
+}
+.sale a{
+    color: #FAFAFA;
+    margin-top: 1vw;
+    margin-left: 1vh;
+}
+.sale p {
+ margin-left: 33vw;
+ margin-top:2vh ;
+}
+.menu{
+    display: flex;
+    margin-top: 4vh;
+}
+.menu a {
+    margin-left:10vh;
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
 .main{
     display: flex;
     padding:50px ;
