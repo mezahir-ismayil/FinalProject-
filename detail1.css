@@ -40,8 +40,9 @@
     height: 680px;
 }
 .details{
+    margin-top: -30%;
+    margin-left: 100vh;
     padding: 50px;
-    background-color: aqua;
     width: 40%;
 }
 .ul li{
