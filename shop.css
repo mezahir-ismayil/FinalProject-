@@ -53,11 +53,13 @@
     margin-left: 90px;
 }
 .shop2{
-    background-color: rgb(228, 224, 224);
-    width: 20vw;
+width: 20vw;
 }
 .shop2 h1{
 margin: 8vh;
+}
+.rate h1{
+
 }
 .search input{
     padding: 5px;
@@ -87,14 +89,45 @@ margin-left: 25%;
 }
 .goods div{
     height:50vh;
+    margin-left: 30px;
+    border: none;
 }
-
-
-.goods2 img{
-    height: 30vh;
+.goods button{
+background-color: black;
+color: #FAFAFA;
+height: 5vh;
+width: 10vw;
+border-radius: 10px;
+margin-top:10px ;
+}
+.goods button{
+background-color: black;
+color: #FAFAFA;
+height: 5vh;
+width: 10vw;
+border-radius: 10px;
+margin-top:10px ;
+}
+.goods2 button{
+background-color: black;
+color: #FAFAFA;
+height: 5vh;
+width: 10vw;
+border-radius: 10px;
+margin-top:10px ;
 }
 .goods2 div{
     height:50vh;
+    margin-left: 10px;
+    border: none;
+}
+.goods2 img{
+    height: 30vh;
+    border: none;
+}
+.goods2 div{
+    height:50vh;
+    margin-left: 10px;
 }
 .good1{
     height: 37vh;
@@ -103,26 +136,14 @@ margin-left: 25%;
     margin-left: -5%;
     border: solid gray 1px;
 }
-.good1 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
+.good1 img{
+    width: 12vw;
 }
 .good2{
     height: 45vh;
     width: 15vw;
     margin-top: 3%;
     border: solid gray 1px;
-}
-.good2 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-margin-left: 4vh;
 }
  .good2 img{
     height: 35vh;
@@ -136,17 +157,9 @@ margin-left: 4vh;
     margin-top: 3%;
     border: solid gray 1px;
 }
-.good3 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-margin-left: 4vh;
+.good3 img{
+    width: 30vh; 
 }
-/* .good3 img{
-    height: 35vh;
-} */
 .good3 .rate{
     margin-left: 4vh;
 }
@@ -155,17 +168,6 @@ margin-left: 4vh;
     width: 15vw;
     margin-top: 3%;
     border: solid gray 1px;
-}
-.good4 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-margin-left: 4vh;
-/* }
-.good4 img{
-    height: 35vh; */
 }
 .good4 .rate{
     margin-left: 4vh;
@@ -181,26 +183,11 @@ margin-left: 4vh;
     margin-left: -5%;
     border: solid gray 1px;
 }
-.good5 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-}
 .good6{
     height: 45vh;
     width: 15vw;
     margin-top: 3%;
     border: solid gray 1px;
-}
-.good6 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-margin-left: 4vh;
 }
 .good6 img{
     height: 35vh;
@@ -214,14 +201,6 @@ margin-left: 4vh;
     margin-top: 3%;
     border: solid gray 1px;
 }
-.good7 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-margin-left: 4vh;
-}
 .good7 img{
     height: 35vh;
 }
@@ -233,14 +212,6 @@ margin-left: 4vh;
     width: 15vw;
     margin-top: 3%;
     border: solid gray 1px;
-}
-.good8 button{
-background-color: black;
-color: white;
-height: 4vh;
-width: 10vw;
-border-radius: 15px;
-margin-left: 4vh;
 }
 .good8 img{
     height: 35vh;

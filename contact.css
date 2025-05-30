@@ -107,18 +107,22 @@ background-color: rgb(236, 236, 236);
     margin-top: 10vh;
     height: 20vh;
     width: 40vw;
+        border-radius: 15px;
 }
 #inp1{
     height: 4vh;
     width: 10vw;
+    border-radius: 15px;
 }
 #inp2{
     height: 4vh;
     width: 10vw;
+    border-radius: 15px;
 }
 #inp3{
     height: 4vh;
     width: 10vw;
+        border-radius: 15px;
 }
 .inputs button{
     background-color: #DB4444;

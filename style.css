@@ -104,7 +104,6 @@ color: black;
 .img2{
     margin-left: 120vh;
     margin-top: -105vh;
-
 }
 .img2 h1{
 margin-left: -20vh;
@@ -349,8 +348,8 @@ width: 30vh;
     margin-top:2vh ;
 }
 .exclusive i{
-margin-left: -3vh;
-font-size: 2.5vh;
+margin-left: -3vh; 
+ font-size: 2.5vh;
 }
 .support{
     color: #FAFAFA;
@@ -389,9 +388,16 @@ margin-top: 6.5vh;
 .link h2 {
     margin-top:2vh ;
 }
-.download{
+.download h2{
     color: white;
     margin-left: 10vh;
+}
+.download p{
+    color: white;
+    margin-left: 10vh;
+}
+.download i{
+    color: white;
 }
 #img6{
 height: 12vh;
