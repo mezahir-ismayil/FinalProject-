@@ -6,6 +6,7 @@ btn.addEventListener("click",()=>{
 let obj = JSON.parse(localStorage.getItem(`user${i}`))
 let i1 = document.getElementById("inp12")
 let i2 = document.getElementById("inp22")
+
         if (i1.value == obj.username && i2.value == obj.password){
             alert("ты зарегался харош");
                 window.location.href = "index.html";
