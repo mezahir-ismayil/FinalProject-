@@ -82,15 +82,9 @@ margin-top: 8vh;
 font-size: 60px;
 }
 .img1 img{
-   width: 55vw;
+   width: 25vw;
     margin-left: 4vh; 
 } 
-.img1 h1{
-    margin-top: -8vh;
-    margin-left:10vh;
-    font-size: 55px;
-    margin-top: -10vh;
-}
 .img1 a{
 color: black;
 margin-left: 10vh;
@@ -107,21 +101,25 @@ color: black;
 }
 .img2 h1{
 margin-left: -20vh;
-margin-top: -5vh;
+margin-top: -20vh;
 }
 .img2 a{
     margin-left: -20vh;
 }
 .img2 img{
-    height: 30vh;
-    width: 15vw;
+    height: 40vh;
+    width: 20vw;
 }
 .img3 img{
     height: 40vh;
     width: 20vw;
+    margin-top: 10vh;
 }
 .img3{
     margin-left: 90vh;
+}
+.img3 a {
+    margin-left: 10vh;
 }
 .fc{
 margin-left: 40%;
@@ -167,8 +165,10 @@ margin-top: -20vh;
     position: relative;
   transform: rotate(40deg);
   transition: 0.5s;
-  z-index: 1;
-  margin-left: -10vh;
+  z-index: 2;
+  height: 20vh;
+  margin-left: -5vh;
+  margin-top: 4vh;
 }
 #img1:hover{
     transform: rotate(0deg);
@@ -184,7 +184,7 @@ position: absolute;
 transform: rotate(130deg);
 transition: 0.5s;
 z-index: 1;
-margin-left: 10vh;
+margin-left: -5vh;
 
 }
 #img2:hover{
@@ -197,16 +197,17 @@ margin-left: 10vh;
 }
 #img4{
     transition: 0.5s;
-    margin-left: -25%;
+    margin-left: 1vh;
 }
 #img4:hover{
     height: 32vh;
     transition: 0.5s;
 
+
 }
 #img5{
+    height: 25vh;
     transition: 0.5s;
-    margin-left: 5%;
 }
 #img5:hover{
     height: 32vh;
