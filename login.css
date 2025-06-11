@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.sale{
+    background-color: #DB4444;
+    color: #FAFAFA;
+    display: flex;
+    width: 99vw;
+    height: 5vh;
+}
+.sale a{
+    color: #FAFAFA;
+    margin-top: 1vw;
+    margin-left: 1vh;
+}
+.sale p {
+ margin-left: 33vw;
+ margin-top:2vh ;
+}
+.menu{
+    display: flex;
+    margin-top: 4vh;
+}
+.menu a {
+    color: black;
+    margin-left:7vw;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.menu i {
+    color: black;
+    margin-left:7vw;
+    text-decoration: none;
+}
+.menu button{
+    background-color: #DB4444;
+    border: none;
+    width: 7vh;
+    margin-left: 3vw;
+    border-radius: 5px;
+}
+.menu input{
+    margin-left: 6vh;
+    border: none;
+    background-color: #cecece;
+}
+.menu a {
+    margin-left: 90px;
+}
+.login{
+   align-items: center;
+   justify-content: center;
+    margin-top: 10vh;
+    display: block;
+    margin-left: 40%;
+}
+.login input{
+    width: 15vw;
+    height: 3vh;
+}
+.login button{
+    background-color: #DB4444;
+    color: white;
+    /* margin-top: ; */
+    border: none;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+.login a{
+text-decoration: none;
+color: #DB4444;
+}
+.login p{
+color: black;
+}

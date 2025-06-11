@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.sale{
+    background-color: #DB4444;
+    color: #FAFAFA;
+    display: flex;
+    width: 99vw;
+    height: 5vh;
+}
+.sale a{
+    color: #FAFAFA;
+    margin-top: 1vw;
+    margin-left: 1vh;
+}
+.sale p {
+ margin-left: 33vw;
+ margin-top:2vh ;
+}
+.menu{
+    display: flex;
+    margin-top: 4vh;
+}
+.menu a {
+    color: black;
+    margin-left:7vw;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
