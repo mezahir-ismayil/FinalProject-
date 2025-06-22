@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: border-box;
+    box-sizing: border-box;
 }
 .sale{
     background-color: #DB4444;
@@ -51,30 +51,22 @@
 .menu a {
     margin-left: 90px;
 }
-.login{
+#loginForm{
    align-items: center;
    justify-content: center;
     margin-top: 10vh;
     display: block;
     margin-left: 40%;
 }
-.login input{
+#loginForm input{
     width: 15vw;
     height: 3vh;
 }
-.login button{
+button{
     background-color: #DB4444;
-    color: white;
-    /* margin-top: ; */
+    color: black;
     border: none;
     height: 7vh;
     width: 15vw;
     border-radius: 10px;
-}
-.login a{
-text-decoration: none;
-color: #DB4444;
-}
-.login p{
-color: black;
 }

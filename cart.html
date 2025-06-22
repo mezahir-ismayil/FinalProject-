@@ -22,6 +22,8 @@
             <a href="shop.html"> Shop</a>
         <input type="text" placeholder="What you looking for?">
         <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="cart.html" class="fa-solid fa-basket-shopping"></a>
+        <a href="creataccount.html"  class="fa-solid fa-user"></a>
         <p>Username</p>
         <a href="login.html" class="log">Log in</a>
         </div>
@@ -35,6 +37,23 @@
                 </tr>
             </thead>
             <tbody class="addedElements">
+                <div class="cart-total-box">
+  <h2>Cart total</h2>
+  <div class="line">
+    <span>Subtotal</span>
+    <span id="subtotal">0.00$</span>
+  </div>
+  <div class="line">
+    <span>Shipping</span>
+    <span>free</span>
+  </div>
+  <div class="line total">
+    <span>Total</span>
+    <span id="total">0.00$</span>
+  </div>
+  <button class="checkout-btn">Proceed to checkout</button>
+</div>
+
             </tbody>
             </table>
             <script src="cart.js"></script>

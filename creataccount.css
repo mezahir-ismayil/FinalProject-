@@ -51,16 +51,18 @@
 .menu a:hover {
     text-decoration: underline;
 }
-.account2{
+#registerForm{
 margin-left: 40%;
     margin-top: 10vh;
     display: block;
 }
-.account2 input{
+
+
+#registerForm input{
     width: 15vw;
     height: 3vh;
 }
-.account2 button{
+#registerForm button{
     background-color: #DB4444;
     color: white;
     /* margin-top: ; */
@@ -69,11 +71,11 @@ margin-left: 40%;
     width: 15vw;
     border-radius: 10px;
 }
-.account2 a{
+#registerForm a{
 text-decoration: none;
 color: #DB4444;
 }
-.account2 p{
+#registerForm p{
 color: black;
     }
 .contact{

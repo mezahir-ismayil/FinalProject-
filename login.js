@@ -1,23 +1,24 @@
-let num = +localStorage.getItem("num");
+document.getElementById("loginForm")?.addEventListener("submit", function (e) {
+  e.preventDefault();
 
-let btn = document.getElementById("btn2")
-btn.addEventListener("click",()=>{
-    for(let i  = 0 ;i< num; i++){
-let obj = JSON.parse(localStorage.getItem(`user${i}`))
-let i1 = document.getElementById("inp12")
-let i2 = document.getElementById("inp22")
+  const storedUser = JSON.parse(localStorage.getItem("user"));
+  const usernameInput = document.getElementById("inp12").value.trim();
+  const passwordInput = document.getElementById("inp22").value.trim();
 
-        if (i1.value == obj.username && i2.value == obj.password){
-            alert("ты зарегался харош");
-                window.location.href = "index.html";
-                if(i1.value == obj.username){
-                    localStorage.setItem("loginuser",JSON.stringify(obj))
-                }
-                break;
-            }else if ((i1.value != obj.username || i2.value != obj.password) && i == num-1) {
-                alert("неверный пароль или username");
-            }
-            else{
-                continue;
-            }
-}})
+  if (!usernameInput || !passwordInput) {
+    alert("Введите логин и пароль!");
+    return;
+  }
+
+  if (
+    storedUser &&
+    usernameInput === storedUser.username &&
+    passwordInput === storedUser.password
+  ) {
+    localStorage.setItem("loggedInUser", usernameInput);
+    alert("Вы вошли в систему!");
+    window.location.href = "index.html";
+  } else {
+    alert("Неправильный логин или пароль!");
+  }
+});

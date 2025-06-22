@@ -54,4 +54,21 @@ for(let k = 0;k<images.length;k++){
 window.location.href = "detail1.html";
     })
 }
-// localStorage.clear()
+const shopContainer = document.getElementById("shop-products");
+const products = JSON.parse(localStorage.getItem("products")) || [];
+
+if (products.length === 0) {
+    shopContainer.innerHTML = "<p>Нет товаров</p>";
+} else {
+    products.forEach(product => {
+        const item = document.createElement("div");
+        item.classList.add("product");
+        item.innerHTML = `
+            <img src="${product.imgUrl}" alt="${product.model}" width="150">
+            <h4>${product.brand} ${product.model}</h4>
+            <p>${product.description}</p>
+            <span>$${product.price}</span>
+        `;
+        shopContainer.appendChild(item);
+    });
+}

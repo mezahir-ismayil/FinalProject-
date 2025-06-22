@@ -1,32 +1,32 @@
-let btn1 = document.getElementsByClassName("btn")[0];
-let obj = {
-    name1:"",
-    surname:"",
-    email:"",
-    username:"",
-    password:"",
-};
+function func1() {
+    const brand = document.getElementById("brand").value.trim();
+    const model = document.getElementById("model").value.trim();
+    const categories = document.getElementById("categories").value.trim();
+    const description = document.getElementById("Description").value.trim();
+    const price = document.getElementById("price").value.trim();
+    const imgUrl = document.getElementById("Img").value.trim();
 
-
-  if(!localStorage.getItem("num")){
-        localStorage.setItem("num","0");
+    if (!brand || !model || !categories || !description || !price || !imgUrl) {
+        alert("Пожалуйста, заполните все поля");
+        return;
     }
-    let a = +localStorage.getItem("num");
 
+    const product = {
+        brand,
+        model,
+        categories,
+        description,
+        price,
+        imgUrl
+    };
 
-btn1.addEventListener("click",()=>{
-    let name = document.getElementById("inp1")
-    let surname= document.getElementById("inp2")
-    let email = document.getElementById("inp3")
-    let username = document.getElementById("inp4")
-    let password = document.getElementById("inp5")
-    obj.name1 = name.value;
-    obj.surname = surname.value;
-    obj.email = email.value;
-    obj.username = username.value;
-    obj.password = password.value;
-    localStorage.setItem(`user${a++}`,JSON.stringify(obj));
-    localStorage.setItem("num",a);
-    location.href = "login.html";
-})
-// localStorage.clear()
+    // Получаем текущие продукты или создаем пустой массив
+    const products = JSON.parse(localStorage.getItem("products")) || [];
+    products.push(product);
+
+    // Сохраняем обратно
+    localStorage.setItem("products", JSON.stringify(products));
+    
+    alert("Продукт сохранен!");
+    window.location.href = "newproduct.html";
+}

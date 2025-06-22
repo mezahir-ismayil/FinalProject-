@@ -69,3 +69,42 @@ tbody button{
 thead tr th{
     padding: 10px;
 }
+.cart-total-box {
+    margin-left: 80%;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background:  #fff;
+  font-family: Arial, sans-serif;
+
+}
+
+.cart-total-box h2 {
+  margin-bottom: 20px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 1px solid #999;
+  padding-top: 10px;
+}
+
+.checkout-btn {
+  width: 100%;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.checkout-btn:hover {
+  background-color: #c9302c;
+}
