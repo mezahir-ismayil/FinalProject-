@@ -21,12 +21,18 @@
 }
 .menu{
     display: flex;
+    align-items: center;
     margin-top: 4vh;
+    justify-content: space-evenly;
+    padding: 0 50px;
 }
 .menu a {
+    margin-left:10vh;
     color: black;
-    margin-left:7vw;
     text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
 }
 .menu i {
     color: black;
@@ -35,23 +41,23 @@
 }
 .log{
     background-color: #DB4444;
+    color: white !important;
+    padding: 10px;
     border: none;
-    width: 7vh;
     margin-left: 3vw;
     border-radius: 5px;
 }
 .menu input{
     margin-left: 6vh;
+    outline: none;
     border: none;
     background-color: #cecece;
-}
-.menu a {
-    margin-left: 90px;
 }
 .menu a:hover {
     text-decoration: underline;
 }
 .a{
+    margin-top: 50px;
     margin-left: 10%;
 }
 .a a{
@@ -59,7 +65,7 @@
 }
 .call{
     margin-left: 5%;
-    margin-top: 5vh;
+  
 }
 .i{
 background-color: #DB4444;
@@ -88,23 +94,36 @@ margin: 1.5vh;
     font-size: 3vh;
 margin: 1.5vh;
 }
+
 .write{
     margin-left: 5%;
     margin-top: 5vh;
+    padding: 50px;
 }
 .write p{
 padding: 10px;
 width: 15vw;
 }
+.flex {
+    display: flex;
+    /* justify-content: space-between; */
+      margin-top: 100px;
+    padding: 50px;
+    /* width:93vw; */
+}
 .inputs{
-    margin-left: 50%;
-    margin-top: -20%;
+    margin-left: 300px;
+    /* margin-left: 50%; */
+    /* margin-top: 20%; */
 }
 .inputs input{
 background-color: rgb(236, 236, 236);
+border: none;
+outline: none;
+padding: 10px 30px;
 }
 #inp4{
-    margin-top: 10vh;
+    margin-top: 20px;
     height: 20vh;
     width: 40vw;
         border-radius: 15px;
@@ -221,4 +240,16 @@ background-color: rgb(236, 236, 236);
         color: #db8888;
         margin-top: 40vh;
         margin-left: -45%;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .footer {
+        width: 99vw;
+    }
+    .footer img {
+        height: 400px;
+        width: 100%;
     }

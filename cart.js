@@ -1,5 +1,26 @@
 let arr = []; 
 
+
+
+let b = document.getElementById("username11");
+window.onload = function(){ 
+    if (localStorage.getItem(`loginuser`)) {
+        let prof = JSON.parse(localStorage.getItem(`loginuser`));
+        let prof1 = prof.username;
+        b.innerHTML = prof1;
+} 
+}
+
+let logOut = document.getElementById("logBtn");
+logOut.addEventListener("click", ()=> {
+    
+    localStorage.removeItem("loginuser");
+    window.location.href = "index.html";
+})
+
+
+
+
 for(let i=0;i<localStorage.length;i++){
     let tbody = document.getElementsByClassName("addedElements")[0];
     if(!localStorage.key(i).search("custom")){
@@ -9,17 +30,11 @@ for(let i=0;i<localStorage.length;i++){
         tr.innerHTML = `
         <td><img src="${objOfElement.img}" alt="">
         ${objOfElement.name1}</td>
-        <td>${objOfElement.price}</td>
-        <td> <input oninput="func2(${i}) class="inpp1" type="number"></td>
+        <td>${objOfElement.price} $</td>
+        <td> <input oninput="func2(${i})" class="inpp1" type="number"></td>
     <td class="sub"></td>
     <td><button onclick="deleteCustom(${i})">Delete</button></td>`;
-    function func2(index){
-        let a = arr.indexOf(index)
-        let sub = document.getElementsByClassName("sub");
-        let inp1 = document.getElementsByClassName("inpp1");
-        sub[a].innerHTML = inp1[a].value * JSON.parse(localStorage.getItem(localStorage.key(index))).price;
-        objOfElement.sub = sub.innerHTML
-    }
+  
     tbody.append(tr);
     function deleteCustom(index){
         localStorage.removeItem(localStorage.key(index));
@@ -27,3 +42,12 @@ for(let i=0;i<localStorage.length;i++){
     }
     }
 }
+
+  function func2(index){
+        let a = arr.indexOf(index)
+        let sub = document.getElementsByClassName("sub");
+        let inp1 = document.getElementsByClassName("inpp1");
+        sub[a].innerHTML = inp1[a].value * JSON.parse(localStorage.getItem(localStorage.key(index))).price + " $";
+        // objOfElement.sub = sub.innerHTML;
+        // sub[a].innerHTML = objOfElement.sub;
+    }

@@ -1,4 +1,25 @@
+let b = document.getElementById("username11");
+window.onload = function(){ 
+    if (localStorage.getItem(`loginuser`)) {
+        let prof = JSON.parse(localStorage.getItem(`loginuser`));
+        let prof1 = prof.username;
+        b.innerHTML = prof1;
+} 
+}
+
+
+let logOut = document.getElementById("logBtn");
+logOut.addEventListener("click", ()=> {
+    
+    localStorage.removeItem("loginuser");
+    window.location.href = "index.html";
+})
+
+
+
+
 let btn1 = document.getElementsByClassName("btn")[0];
+let btnC = document.getElementById("btnC");
 let obj = {
     name1:"",
     surname:"",
@@ -14,7 +35,7 @@ let obj = {
     let a = +localStorage.getItem("num");
 
 
-btn1.addEventListener("click",()=>{
+btnC.addEventListener("click",()=>{
     let name = document.getElementById("inp1")
     let surname= document.getElementById("inp2")
     let email = document.getElementById("inp3")
@@ -27,6 +48,6 @@ btn1.addEventListener("click",()=>{
     obj.password = password.value;
     localStorage.setItem(`user${a++}`,JSON.stringify(obj));
     localStorage.setItem("num",a);
-    location.href = "login.html";
+    window.location.href = "login.html";
 })
 // localStorage.clear()

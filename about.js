@@ -8,7 +8,7 @@ window.onload = function(){
 }
 
 let logOut = document.getElementById("logBtn");
-   logOut.addEventListener("click", ()=> {
+logOut.addEventListener("click", ()=> {
     
     localStorage.removeItem("loginuser");
     window.location.href = "index.html";

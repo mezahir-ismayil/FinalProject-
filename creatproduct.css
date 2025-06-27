@@ -4,7 +4,7 @@
     border: border-box;
 }
 .sale{
-    background-color: black;
+    background-color: #DB4444;
     color: #FAFAFA;
     display: flex;
     width: 99vw;
@@ -19,18 +19,7 @@
  margin-left: 33vw;
  margin-top:2vh ;
 }
-.menu{
-    display: flex;
-    margin-top: 4vh;
-}
-.menu a {
-    color: black;
-    margin-left:7vw;
-    text-decoration: none;
-}
-.menu a:hover {
-    text-decoration: underline;
-}
+
 .shop{
     background-color: #DB4444;
     width: 3.5vw;
@@ -47,10 +36,17 @@
 .creatproduct{
     text-align: center;
     display: block;
+    margin-top: 50px;
 }
 .creatproduct input{
-    height: 5vh;
-    width: 20vw;
+    /* height: 5vh; */
+    padding: 10px;
+    /* border: none; */
+    margin: 10px 0;
+    width: 23vw;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
 }
 .img img{
     margin-left: -20vh;
@@ -60,14 +56,68 @@
     height: 20vh;
     width: 25vw;
 }
+
 .creatproduct button{
-    position: absolute;
-    align-items: center;
-    margin-top: 10vh;
-    margin-left: -40vh;
+
     background-color:blue ;
     border: none;
-    height: 3vh;
-    width: 5vw;
-    border-radius: 5px;;
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.creatproduct h1 {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 10px 0;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+    padding: 0 50px;
+}
+.menu a {
+    margin-left:10vh;
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.menu input  {
+    padding: 7px;
+    background-color: #cbc9c9;
+    border: none;
+    border-radius: 6px;
+}
+.menu button {
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    /* display: block; */
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+.img {
+    width: 200px;
+    margin: 0 auto;
+    padding: 0 auto;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="detail1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
@@ -12,30 +13,55 @@
             <p>Summer Sale For All Swim And Free Express Delivery - OFF 50%</p>
             <a href="shop.html">Shop now</a>
         </div>
-        <div class="menu">
-            <h2>E-commerce</h2>
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-            <a href="creataccount.html">Sign Up</a>
-            <a href="shop.html"> Shop</a>
-        <input type="text" placeholder="What you looking for?">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <p class="un">Username</p>
-        <a href="login.html" class="log">Log in</a>
-        </div>
-        <div class="img">
-            <img src="https://s3-alpha-sig.figma.com/img/dc40/ba89/7215f42e5883a64157f0aa3a4d1a866a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ehBRHWQiMPeh1Qm5lowHf13haF5BlD-Fwp-saYPEIyuAFxaLsIS1qz2yqUklJrMQSQNM~6VmSywygicBsrB-E08Ybtmeztxwr6~D84pfv7mt26v09V2e6cGClzgC5uH8zyQyMnQofsErnmuqgxqxxdAdi9QHxxFFCjBOQwFWwQIg2ihuPJZqlLw~6rCLnBOsw7JBDr8w2r53wp3tyMP-UD~iaytnYZI5k-Yz6JQbcgNp-ad78-~BGuzyi6xfJYeT5ZjV~6zVq~rkd8YFcr~1mUPCabLTdni0VpZrWnCo0fI5t7C7s6co5uHQUwuGYPIHcgM91gyysE~AOAKKgOv8pw__" alt="">
-        </div>
-    <div class="main">
-        <div class="details">
-            <ul>
+          <div class="menu">
+        <h1>E-commerce</h1>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="creataccount.html">Sign Up</a>
+        <a href="shop.html"> Shop</a>
+    <input type="text" placeholder="What you looking for?">
+    <i class="fa-solid fa-magnifying-glass"></i>
+           <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+         <a href="./userdetail.html"><i class="fa-solid fa-user"></i></a>
+    <p class="un" id="username11">Username</p>
+      <button class="log" id="logBtn">Log out</button>
+    </div>
+    
+    <div class="main flex">
+        <div class="details imgDiv">
+             <p>Product page</p>
+                <img src="" id="img" alt="">
+            </div>
+            <div class="details">
+                 <h2 id="name"></h2>
+                <p id="rating"></p>
+                <p id="price"></p>
+                <p id="description">Details: </p> <hr><br>
+                <button>Add to Cart</button>
+
+                 <div class="flex delivery">
+                    <i class="fa-solid fa-truck"></i>
+                    <div>
+                        <h2>Free Delivery</h2> 
+                    <a href="">Enter your postal code for Delivery Availability</a>
+                    </div>
+                </div>
+                  <div class="flex delivery">
+                    <i class="fa-solid fa-rotate-right"></i>                    <div>
+                        <h2>Return Delivery</h2>
+                    <a href="">Free 30 days delivery returns.details</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- <ul>
                 <li>Name: <span id="name"></span></li>
                 <li>Price: <span id="price"></span></li>
                 <a href="https://www.youtube.com/@Wylsacom/videos"> ОБЗОР НА ТОВАР</a>
-            </ul>
+            </ul> -->
         </div>
-    </div>
     </div>
     <script src="detail1.js"></script>
 </body>

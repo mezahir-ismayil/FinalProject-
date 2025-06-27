@@ -39,7 +39,9 @@
 .menu button{
     background-color: #DB4444;
     border: none;
-    width: 7vh;
+    padding: 10px;
+    color: white;
+    /* width: 7vh; */
     margin-left: 3vw;
     border-radius: 5px;
 }
@@ -52,20 +54,30 @@
     margin-left: 90px;
 }
 .login{
-   align-items: center;
-   justify-content: center;
-    margin-top: 10vh;
+
     display: block;
-    margin-left: 40%;
+    margin: 0 auto;
+}
+.main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 .login input{
-    width: 15vw;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 20vw;
     height: 3vh;
 }
 .login button{
     background-color: #DB4444;
     color: white;
-    /* margin-top: ; */
+    margin-top: 30px;
     border: none;
     height: 7vh;
     width: 15vw;
@@ -77,4 +89,9 @@ color: #DB4444;
 }
 .login p{
 color: black;
+}
+.login h1 {
+    margin: 30px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }

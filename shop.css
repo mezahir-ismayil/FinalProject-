@@ -21,11 +21,13 @@
 }
 .menu{
     display: flex;
+    align-items: center;
+    padding: 0 50px;
     margin-top: 4vh;
 }
 .menu a {
     color: black;
-    margin-left:7vw;
+    margin: 10px;
     text-decoration: none;
 }
 .menu a:hover {
@@ -39,8 +41,10 @@
 }
 .log{
     background-color: #DB4444;
+    color: white !important;
+    padding: 10px;
     border: none;
-    width: 7vh;
+    /* width: 7vh; */
     margin-left: 3vw;
     border-radius: 5px;
 }
@@ -50,7 +54,7 @@
     background-color: #cecece;
 }
 .menu a {
-    margin-left: 90px;
+    margin: 40px;
 }
 .shop2{
 width: 20vw;
@@ -78,7 +82,7 @@ margin: 8vh;
 margin-left: 25%;
 }
 .goods{
-    margin-left: 30%;
+    /* margin-left: 30%; */
     display: flex;
 }
 .red{
@@ -173,7 +177,7 @@ margin-top:10px ;
     margin-left: 4vh;
 }
 .goods2{
-    margin-left: 30%;
+    /* margin-left: 30%; */
     display: flex;
 }
 .good5{
@@ -218,4 +222,55 @@ margin-top:10px ;
 }
 .good8 .rate{
     margin-left: 4vh;
+}
+
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: #f8f8f8;
+    /* background-color: red; */
+}
+.sidebar h1, .sidebar h2 {
+    margin: 20px 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+.rating span {
+    cursor: pointer;
+    display: block;
+    color: rgb(255, 191, 0);
+    font-size: 30px;
+    margin-top: 20px;
+}
+.sidebar input {
+    padding: 5px;
+    border: solid 1px rgb(215, 209, 209);
+    outline: none;
+}
+.all-products {
+    background-color: #DB4444;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 100px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    width: 99vw;
+    margin-top: 200px;
+}
+.footer img {
+    width: 100%;
+    height: 380px;
 }

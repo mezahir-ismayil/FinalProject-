@@ -21,17 +21,25 @@
 }
 .menu{
     display: flex;
+    align-items: center;
     margin-top: 4vh;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding: 0 40px;
 }
 .menu a {
+    margin-left: 2vh;
     color: black;
-    margin-left:7vw;
     text-decoration: none;
 }
 .menu a:hover {
     text-decoration: underline;
 }
-
+.menu i {
+    color: black;
+    margin-left:7vw;
+    text-decoration: none;
+}
 
 .shop{
     background-color: #DB4444;
@@ -41,8 +49,10 @@
 }
 .log{
     background-color: #DB4444;
+    color: white;
+    padding: 10px;
     border: none;
-    width: 7vh;
+    /* width: 7vh; */
     margin-left: 3vw;
     border-radius: 5px;
 }

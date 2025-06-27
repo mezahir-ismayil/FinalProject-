@@ -1,3 +1,8 @@
+let title = document.getElementsByClassName("title")[0]
+// let num = localStorage.getItem("num");
+let log1 = document.getElementById("logBtn");
+
+
 let b = document.getElementById("username11");
 window.onload = function(){ 
     if (localStorage.getItem(`loginuser`)) {
@@ -8,7 +13,7 @@ window.onload = function(){
 }
 
 let logOut = document.getElementById("logBtn");
-   logOut.addEventListener("click", ()=> {
+logOut.addEventListener("click", ()=> {
     
     localStorage.removeItem("loginuser");
     window.location.href = "index.html";

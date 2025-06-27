@@ -1,3 +1,19 @@
+let b = document.getElementById("username11");
+window.onload = function(){ 
+    if (localStorage.getItem(`loginuser`)) {
+        let prof = JSON.parse(localStorage.getItem(`loginuser`));
+        let prof1 = prof.username;
+        b.innerHTML = prof1;
+} 
+}
+
+
+let logOut = document.getElementById("logBtn");
+logOut.addEventListener("click", ()=> {
+    
+    localStorage.removeItem("loginuser");
+    window.location.href = "index.html";
+})
 
 
 
@@ -13,7 +29,7 @@ rate:"",
 
 for(let i = 0; i<basketBtn.length;i++){
  let p1 = document.getElementsByClassName("red")[i];
-p1.innerHTML =  Math.floor(Math.random() * 3000)
+p1.innerHTML =  Math.floor(Math.random() * 3000) ;
     if(basketBtn[i]){
         basketBtn[i].addEventListener("click",()=>{
             let img = document.getElementsByTagName("img")[i];
