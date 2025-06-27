@@ -21,11 +21,9 @@
             <a href="creataccount.html">Sign Up</a>
             <a href="shop.html"> Shop</a>
         <input type="text" placeholder="What you looking for?">
-        <a href="" class="fa-solid fa-magnifying-glass"></a>
-          <a href="./userdetail.html"><i class="fa-solid fa-user"></i></a>
-       <a href="./shop.html"><i class="fa-solid fa-cart-shopping"></i></a>
-      <p class="un" id="username11">Username</p>
-    <button class="log" id="logBtn">Log out</button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <p>Username</p>
+        <a href="login.html" class="log">Log in</a>
         </div>
         <table >
             <thead>
@@ -37,6 +35,23 @@
                 </tr>
             </thead>
             <tbody class="addedElements">
+                <div class="cart-total-box">
+  <h2>Cart total</h2>
+  <div class="line">
+    <span>Subtotal</span>
+    <span id="subtotal">0.00$</span>
+  </div>
+  <div class="line">
+    <span>Shipping</span>
+    <span>free</span>
+  </div>
+  <div class="line total">
+    <span>Total</span>
+    <span id="total">0.00$</span>
+  </div>
+  <button class="checkout-btn">Proceed to checkout</button>
+</div>
+
             </tbody>
             </table>
         </div>

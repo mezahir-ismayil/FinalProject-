@@ -55,23 +55,16 @@
 .menu a:hover {
     text-decoration: underline;
 }
-.account2{
+#registerForm{
 margin-left: 40%;
     margin-top: 10vh;
     display: block;
 }
-.account2 h1 {
-    margin: 20px 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
 .account2 input{
-    width: 20vw;
-    padding: 5px;
-    margin: 10px 0;
-    border-radius: 5px;
+    width: 15vw;
+    height: 3vh;
 }
-.account2 button{
+#registerForm button{
     background-color: #DB4444;
     color: white;
     margin-top: 30px;
@@ -80,11 +73,11 @@ margin-left: 40%;
     width: 21vw;
     border-radius: 10px;
 }
-.account2 a{
+#registerForm a{
 text-decoration: none;
 color: #DB4444;
 }
-.account2 p{
+#registerForm p{
 color: black;
     }
 .contact{

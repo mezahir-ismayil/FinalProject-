@@ -263,7 +263,7 @@ left: 200px;
     transition: 0.5s;
 }
 #img5:hover{
-    transform: scale(1.05);
+    height: 32vh;
     transition: 0.5s;
 }
 .product1 .imgR{

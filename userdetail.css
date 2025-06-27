@@ -6,6 +6,120 @@
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
 }
+.detail{
+    margin-left: 10vh;
+    height: 45vh;
+    width: 60vw;
+margin-top: 10vh;
+box-shadow: 5px 5px 5px black;
+}
+.bbb{
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    height: 3vh;
+    width: 10vw;
+    margin-top:3vh ;
+    margin-left: 25vh;
+    border-radius: 10px;
+}
+.detail h1{
+    margin-top: 2vh;
+    margin-left: 25vh;
+}
+
+
+
+
+.contact{
+    background-color:#DB4444;
+    height: 45vh;
+    display: flex;
+    margin-top: 20vh;
+}
+.exclusive{
+    color: #FAFAFA;
+    padding: 7vh;
+    margin-left: 10vh;
+}
+.exclusive input{
+    background-color: #DB4444;
+    border:solid #FAFAFA 1px;
+    height: 4vh;
+    margin-top: 2vh;
+}
+.exclusive p {
+    margin-top:2vh ;
+}
+.exclusive h4 {
+    margin-top:2vh ;
+}
+.exclusive i{
+margin-left: -3vh;
+font-size: 2.5vh;
+}
+.support{
+    color: #FAFAFA;
+margin-top: 6.5vh; 
+
+}
+.support p {
+    margin-top:2vh ;
+}
+.support h4 {
+    margin-top:2vh ;
+}
+.account{
+    color: white;
+    margin-left: 5vh;
+}
+.account a {
+    margin-top:2vh ;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.account h2 {
+    margin-top:2vh ;
+}
+.link{
+    color: white;
+    margin-left: 10vh;
+}
+.link a {
+    margin-top:2vh ;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.link h2 {
+    margin-top:2vh ;
+}
+.download{
+    color: white;
+    margin-left: 10vh;
+}
+#img6{
+height: 12vh;
+}
+#img7{
+    height: 20vh;
+}
+#img8{
+    position: relative;
+    top: 5vh;
+    height: 18vh;
+    margin-left: -20vh
+}
+.download a{
+    color: white;
+    /* margin-left: -2vh; */
+}
+#psp{
+    color: #db8888;
+    margin-top: 40vh;
+    margin-left: -45%;
+}
 
 .main {
     width: 100vw;

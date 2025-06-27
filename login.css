@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: border-box;
+    box-sizing: border-box;
 }
 .sale{
     background-color: #DB4444;
@@ -54,7 +54,9 @@
     margin-left: 90px;
 }
 .login{
-
+   align-items: center;
+   justify-content: center;
+    margin-top: 10vh;
     display: block;
     margin: 0 auto;
 }
@@ -68,16 +70,13 @@
 
 }
 .login input{
-    padding: 5px;
-    border-radius: 5px;
-    margin: 10px 0;
-    width: 20vw;
+    width: 15vw;
     height: 3vh;
 }
-.login button{
+button{
     background-color: #DB4444;
     color: white;
-    margin-top: 30px;
+    /* margin-top: ; */
     border: none;
     height: 7vh;
     width: 15vw;
@@ -89,9 +88,4 @@ color: #DB4444;
 }
 .login p{
 color: black;
-}
-.login h1 {
-    margin: 30px 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }

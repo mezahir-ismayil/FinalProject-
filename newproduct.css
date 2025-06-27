@@ -94,22 +94,19 @@
 .discountRed a {
     color: white;
 }
-.newProduct {
-    background-color: rgb(42, 127, 193);
+.newproduct {
+    text-decoration: none;
     color: white;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 8px;
-    font-weight: bold;
-    margin: 0 140px;
+    background-color:rgb(0, 162, 255);
+    width: 10vw;
+    height: 5vh;
+    margin-left: 7vh;
+    margin-top: 5vh;
+    border-radius: 10px;
 }
-.myProducts {
-    width: 83%;
-    margin: 20px auto;
-    padding: 10px;
-}
-.myProducts table {
-    width: 100%;
+tbody img{
+    width: 100px;
+    height: 80px;
 }
 .myProducts table tbody *{
     text-align: center;
@@ -144,10 +141,7 @@ td {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    color: white;
 }
-
-.footer img{
-    width: 100vw;
-    height: 350px;
+thead tr th{
+    padding: 80px;    
 }
